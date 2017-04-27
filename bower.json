@@ -1,0 +1,25 @@
+{
+  "name": "csxh",
+  "description": "csxh homePage",
+  "main": "",
+  "keywords": [
+    "csxh"
+  ],
+  "authors": [
+    "zzc"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

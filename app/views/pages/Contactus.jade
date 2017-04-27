@@ -1,0 +1,56 @@
+extends ../layout
+
+block content
+  img.revealOnScroll(src="/images/Contactus-banner.png" style="max-width:100%;")
+  .container
+      .row
+        .col-md-5.col-sm-5
+          img.revealOnScroll.c-mg1(src="images/Contactus-logo.png")
+        .col-md-7.col-sm-5
+          img.revealOnScroll.c-mg2(src="images/index-contactInformation.png")
+  .container
+    img.revealOnScroll(src="/images/Contactus-map.png" style="margin-bottom:10%;max-width:100%;")
+  .container
+    .row
+      .col-md-7
+        .panel.panel-heading
+          h1 留言板
+        .panel.body
+          ul.media-list
+            each item in comments
+              li.media
+                .media-body
+                  h3 来自:
+                    p(style="display:inline-block").text-muted.h4.media-heading #{item.from.name}
+                  p(style="font-size:30px;color:#000;") #{item.content}
+                  if item.reply && item.reply.length > 0
+                    each reply in item.reply
+                      .media(style="margin-left:15%;")
+                        .media-body
+                          h4.media-heading.text-success
+                            | #{reply.from.name}
+                            span.text-info &nbsp;回复&nbsp;
+                            | #{reply.to.name}:
+                          p.text-info #{reply.content}
+                  if user
+                    a#reply(style="margin-left:20%;" href="#comments",data-cid="#{item._id}",data-tid="#{item.from._id}").text-muted.h4.comment 管理员回复
+                  hr
+  .container(style="margin-bottom:10%;margin-top:5%;")
+    .row
+      .col-md-7
+        #comments
+          form#commentForm(method="post", action="/user/comment")
+            if user
+              input(type="hidden", name="comment[from]", value="#{user._id}")
+            .form-group
+              //- h2 联系方式
+              //- input.form-control(name="comment[content]",style="font-size:24px;" placeholder='选填')
+              //- hr
+              h2 留言内容
+              hr
+              textarea.form-control(name="comment[content]",style="height:200px;font-size:24px;")
+            if user
+              button.btn.btn-primary(type="submit",style="width:160px;height:50px;") 提交留言
+            else
+              a.nvabar-link(href="/signin" style="display:inline-block;color:#ccc;width:160px;height:50px;background:rgb(40,96,144);text-align:center;line-height:50px;font-size:24px;border:1px solid rgb(40,96,144);border-radius:5px;") 登录后评论
+  script(src="/js/detail.js")

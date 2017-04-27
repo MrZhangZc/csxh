@@ -1,0 +1,28 @@
+extends ../layout
+
+block content
+  body
+    h1 新闻后台录入
+    .container(style="margin-bottom:60%;")
+      .row
+        form.form-horizontal(method="post",action="/admin/news/new")
+          input(type="hidden",name="new1[_id]",value="#{new1._id}")
+          .form-group
+            lable.col-sm-3.control-lable(for="inputTitle")  新闻标题
+            .col-sm-10
+              input#inputTitle.form-control(type="text",name="new1[title]",value="#{new1.title}")
+          .form-group
+            lable.col-sm-3.control-lable(for="inputMouth")  月日
+            .col-sm-10
+              input#inputMouth.form-control(type="text",name="new1[mouth]",value="#{new1.mouth}")
+          .form-group
+            lable.col-sm-3.control-lable(for="inputYear")  年份
+            .col-sm-10
+              input#inputYear.form-control(type="text",name="new1[year]",value="#{new1.year}")
+          .form-group
+            lable.col-sm-3.control-lable(for="inputSummary")  新闻内容
+            .col-sm-10
+              textarea#inputSummary.form-control(type="text",name="new1[summary]",value="#{new1.summary}")
+          .form-group
+            .col-sm-offset-2.col-sm-10
+            button.btn.btn-default(type="sbumit") 录入

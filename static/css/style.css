@@ -1,0 +1,1087 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.fl{
+    float: left;
+}
+.db{
+    display: inline-block;
+}
+body{
+　　　　font: normal 100% Helvetica, Arial, sans-serif;
+　　}
+.index-header .mg1{
+    margin-top:2%;
+}
+.index-header .mg2{
+    margin-top:6%;
+    margin-left: 2%;
+}
+.index-header .index-header-nav .item{
+        float: left;
+        width: 14%;
+        display: block;
+        margin-left: 2%;
+        text-align:center;
+}
+.index-header .index-header-nav a{
+        color: #dfdede;
+        line-height: 200%;
+        text-decoration:none;
+}
+.index-header .active{
+        background-color: #f13a3a;
+        border-radius: 50px 50px 50px 50px;
+}
+.index-header .index-header-nav{
+    float: right;
+    display: block;
+    width: 60%;
+    margin-top: 6%;
+}
+.index-ad .im6{
+    margin-top:40%;
+    margin-left:75%;
+}
+@keyframes around{
+  0% {
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes around{
+  0% {
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+@-moz-keyframes around{
+  0% {
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.animated{
+    animation:around;
+    -webkit-animation:around;
+    -moz-animation:around;
+    animation-duration: 1s;
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-timing-function: ease;
+    -webkit-timing-function:ease;
+    -moz-timing-function:ease;
+}
+.an-p{
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.AboutUs-Content .ac-p1{
+    margin-left: -25%;
+    line-height: 50px;
+    font-weight: 900;
+    color: rgb(153,153,153);
+}
+
+
+@media screen and (min-width: 1200px){
+    .index-header{
+        height:144px;
+        background-color: #2b2b2b;
+    }
+    .index-header .index-header-logo{
+        float: left;
+        margin-top: 24px;
+        height: 110px;
+        width: 141px;
+        background: url("../images/index-header-logo.png") center center;
+    }
+    .index-header .index-header-logo-text{
+        float: left;
+        margin-top: 70px;
+        margin-left: 20px;
+        height: 36px;
+        width: 181px;
+        background: url("../images/index-header-logo-text.png");
+    }
+    .index-header .index-header-nav{
+        font-size: 2rem;
+    }
+    #myFocus{
+        height: 647px;
+        overflow: hidden;
+    }
+    .index-aboutUs .img3{
+        margin-top:30%;
+        margin-left:10%;
+    }
+    .index-aboutUs .img4{
+        margin-top:20%;
+        margin-left:10%;
+    }
+    .index-madeVideo .col-md-5{
+        margin-left:16%;
+        margin-top:10%;
+    }
+    .index-madeVideo .img5{
+        margin-top:2%;
+    }
+    .index-madeVideo .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:6%;
+        margin-left:15%;
+    }
+    .index-ad{
+        margin-top:5%;
+    }
+    .index-ad .ia-p1{
+        font-size: 3rem;
+        color: #fdf9f9;
+        font-weight: 900;
+        margin-top:20%;
+        margin-left:36%;
+    }
+    .index-ad .ia-p2{
+        font-size: 1em;
+        color: #fdfbfb;
+        line-height: 35px;
+        margin-top:5%;
+        margin-left:36%;
+        margin-right: 10%;
+    }
+    .index-ad .ia-m1{
+        margin-bottom:6%;
+        margin-left:43%;
+    }
+    .index-activityPlanning .col-md-4{
+        margin-top:30%;
+        margin-bottom:20%;
+    }
+    .index-activityPlanning .iag-p1{
+        font-size: 2em;
+        line-height: 56px;
+        font-weight: 900;
+    }
+    .index-activityPlanning .iag-p2{
+        font-size: 1em;
+    }
+    .index-activityPlanning .iag-p3{
+        font-size: 1em;
+        line-height: 2.5em;
+    }
+    .index-activityPlanning .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:6%;
+        margin-left:15%;
+    }
+    .index-activityPlanning #picBox{
+        height: 357px;
+        width: 611px;
+        overflow: hidden;
+        margin-top:45%;
+        margin-left:20%;
+        margin-right: 50%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im1{
+        margin-top:20%;
+        max-width:100%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im2{
+        position:absolute;
+        margin-top:32%;
+        margin-left:35%;
+        max-width:100%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-p1{
+        font-size: 1.8em;
+        font-weight: 900;
+        color:#000;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-p2{
+        font-size: 1em;
+        color: #9c9c9b;
+        line-height: 2.5em;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-p3{
+        font-size: 1em;
+        color: #575b5c;
+        line-height: 2.2em;
+        margin-top: 10%;
+        width:50%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:-10%;
+        margin-left:60%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im3{
+        float:left;
+        margin-top:10%;
+        max-width:100%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im4{
+        float:left;
+        margin-top:10%;
+        max-width:100%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im5{
+        margin-top:10%;
+        margin-bottom:20%;
+        max-width:100%;
+    }
+    .index-team .it-mg{
+        margin-left:1%;
+    }
+    .index-footer{
+        height: 148px;
+        background-color: #1d1d1d;
+    }
+    .index-footer .index-footer-information{
+        color: #e1dfde;
+        font-size: 1em;
+        line-height: 148px;
+        text-align:center;
+        height: 1em;
+        display: block;
+    }
+    .Fd-Movie .fm-im1{
+        margin-top:10%;
+    }
+    .Fd-Movie .fm-im2{
+        margin-top:10%;
+        margin-bottom:20%;
+    }
+    .Fd-Movie .fm-im3{
+        margin-top:10%;
+        margin-left:30%;
+    }
+    .Fd-Movie .fm-p{
+        margin-top:10%;
+        margin-left:10%;
+        line-height:50px;
+    }
+    .Fd-Movie .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:10%;
+        margin-left:40%;
+    }
+    .Fd-Postproduction .fp-p1{
+        margin-top:70%;
+        margin-left:20%;
+    }
+    .Fd-Postproduction .fp-p2{
+        margin-top:10%;
+        margin-left:20%;
+        line-height:30px;
+    }
+    .Fd-Postproduction .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:10%;
+        margin-left:40%;
+    }
+    .Fd-images .fi-im1{
+        margin-top:10%;
+        margin-bottom:10%;
+        max-width:100%;
+    }
+    .Fd-images .fi-im2{
+        margin-top:30%;
+        max-width:100%;
+    }
+    .Fd-images .fi-im3{
+        margin-top:10%;
+        max-width:100%;
+    }
+    .Fd-images .fi-im4{
+        margin-top:10%;
+        max-width:100%;
+    }
+
+    .Eventplanning-content .ec-im1{
+        line-height:50px;
+        margin-top:40%;
+    }
+    .Eventplanning-content .ec-im2{
+        line-height:50px;
+        margin-top:10%;
+    }
+    .Eventplanning-content .ec-im3{
+        line-height:50px;
+        margin-top:10%;
+        margin-left:10%;
+    }
+    .Eventplanning-content .ec-im4{
+        line-height:50px;
+        margin-top:10%;
+    }
+    .Eventplanning-content .ec-p1{
+        line-height:50px;
+        margin-top:15%;
+        margin-left:10%;
+    }
+    .Eventplanning-content .ec-p2{
+        line-height:30px;
+        margin-left:30%;
+        margin-bottom:20%;
+    }
+    .Eventplanning-content .ec-p3{
+        line-height:30px;
+        margin-top:20%;
+        margin-top:30%
+    }
+    .Eventplanning-content .ec-p4{
+        line-height:30px;
+        margin-top:20%;
+    }
+    .Eventplanning-content .ec-p5{
+        line-height:30px;
+        margin-left:60%;
+        margin-bottom:20%;
+    }
+    .Eventplanning-content .ec-p6{
+        line-height:30px;
+        margin-left:30%;
+        margin-bottom:20%;
+    }
+    .Eventplanning-content .ec-p7{
+        line-height:30px;
+        margin-top:20%;
+        margin-top:30%
+    }
+    .AboutUs-News .an-mg1{
+        width:520px;
+        margin-top:10%;
+        margin-bottom:10%;
+        max-width:100%;
+    }
+    .AboutUs-News .an-mg2{
+        width:520px;
+        height: 722px;
+        margin-top:10%;
+        margin-bottom:10%;
+        max-width:100%;
+        margin-left: 10%;
+    }
+    .c-mg1{
+        margin-top:50%;
+    }
+    .c-mg2{
+        margin-top:20%;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1199px){
+    .index-header{
+        height:115px;
+        background-color: #2b2b2b;
+    }
+    .index-header .index-header-nav{
+            font-size: 1rem;
+    }
+    .index-header .index-header-logo{
+        float: left;
+        margin-top: 20px;
+        height: 69px;
+        width: 88px;
+        background: url("../images/index-header-logo.png") center center;
+        background-size: cover;
+    }
+    .index-header .index-header-logo-text{
+        float: left;
+        margin-top: 50px;
+        margin-left: 12.5px;
+        height: 22.5px;
+        width: 113px;
+        background: url("../images/index-header-logo-text.png");
+        background-size: cover;
+    }
+    #myFocus{
+        height: 406px;
+        overflow: hidden;
+    }
+    #myFocus .pic img{
+        width: 1200px;
+        height: 403px;
+        background-size: cover;
+    }
+    .index-aboutUs .img3{
+        margin-top:30%;
+        margin-left:10%;
+    }
+    .index-aboutUs .img4{
+        margin-top:20%;
+        margin-left:10%;
+    }
+    .index-madeVideo .img5{
+        margin-top:2%;
+    }
+    .index-madeVideo .im-p1{
+        font-size: 1.5rem;
+    }
+    .index-madeVideo .col-md-5{
+        margin-left:10%;
+        margin-top:10%;
+    }
+    .index-madeVideo .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:6%;
+        margin-left:15%;
+    }
+    .index-ad .ia-p1{
+        font-size: 2.5rem;
+        color: #fdf9f9;
+        font-weight: 900;
+        margin-top:20%;
+        margin-left:36%;
+    }
+    .index-ad .ia-p2{
+        font-size: 0.8em;
+        color: #fdfbfb;
+        line-height: 35px;
+        margin-top:5%;
+        margin-left:36%;
+        margin-right: 10%;
+    }
+    .index-ad .ia-m1{
+        margin-bottom:6%;
+        margin-left:43%;
+    }
+    .index-activityPlanning .col-md-4{
+        margin-top:10%;
+        margin-bottom:10%;
+    }
+    .index-activityPlanning .iag-p1{
+        font-size: 1.5em;
+        line-height: 56px;
+        font-weight: 900;
+    }
+    .index-activityPlanning .iag-p2{
+        font-size: 1em;
+    }
+    .index-activityPlanning .iag-p3{
+        font-size: 1em;
+        line-height: 2.5em;
+    }
+    .index-activityPlanning .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:6%;
+        margin-left:15%;
+    }
+    .index-activityPlanning #picBox{
+        height: 223px;
+        width: 381px;
+        overflow: hidden;
+        margin-top:30%;
+        margin-left:20%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im1{
+        margin-top:50%;
+        max-width:100%;
+        width: 396px;
+        height: 275px;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im2{
+        position:absolute;
+        margin-top:58%;
+        margin-left:50%;
+        max-width:100%;
+        width: 260px;
+        height: 273px;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-p1{
+        font-size: 1.8em;
+        font-weight: 900;
+        color:#000;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-p2{
+        font-size: 1em;
+        color: #9c9c9b;
+        line-height: 2.5em;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-p3{
+        font-size: 1em;
+        color: #575b5c;
+        line-height: 2.2em;
+        margin-top: 10%;
+        width:50%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:-10%;
+        margin-left:60%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im3{
+        float:left;
+        margin-top:10%;
+        max-width:100%;
+        width: 125px;
+        height: 226px;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im4{
+        float:left;
+        margin-top:10%;
+        max-width:100%;
+        width: 125px;
+        height: 226px;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im5{
+        margin-top:10%;
+        margin-bottom:20%;
+        max-width:100%;
+        width: 125px;
+        height: 226px;
+    }
+    .index-team .it-mg{
+        width: 169px;
+        height: 252px;
+        margin-left:1%;
+    }
+    .index-team .div6{
+        margin-left: 15%;
+    }
+    .index-footer{
+        height: 92px;
+        background-color: #1d1d1d;
+    }
+
+    .index-footer .index-footer-information{
+        color: #e1dfde;
+        font-size: 0.625em;
+        line-height: 92px;
+        text-align:center;
+        height: 0.625em;
+        display: block;
+    }
+    .Fd-Movie .fm-im1{
+        margin-top:25%;
+        width: 284px;
+        height: 172px;
+    }
+    .Fd-Movie .fm-im2{
+        margin-top:15%;
+        margin-bottom:20%;
+        width: 284px;
+        height: 172px;
+    }
+    .Fd-Movie .fm-im3{
+        margin-top:15%;
+        margin-left:30%;
+    }
+    .Fd-Movie .fm-p{
+        font-size: 1em;
+        line-height:2em;
+    }
+    .Fd-Movie .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:10%;
+        margin-left:40%;
+    }
+    .Fd-Postproduction .fp-p1{
+        margin-left:20%;
+    }
+    .Fd-Postproduction .fp-p2{
+        margin-top:10%;
+        margin-left:20%;
+        line-height:30px;
+    }
+    .Fd-Postproduction .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:10%;
+        margin-left:40%;
+        margin-bottom: 20%;
+    }
+    .Fd-images .fi-im1{
+            margin-top:10%;
+            margin-bottom:10%;
+            max-width:100%;
+    }
+    .Fd-images .fi-im2{
+        margin-top:30%;
+        max-width:100%;
+    }
+    .Fd-images .fi-im3{
+        margin-top:10%;
+        max-width:100%;
+    }
+    .Fd-images .fi-im4{
+        margin-top:10%;
+        max-width:100%;
+    }
+    .Eventplanning-content .ec-im1{
+        line-height:31px;
+        margin-top:40%;
+        width: 168px;
+        height: 115px;
+    }
+    .Eventplanning-content .ec-im2{
+        line-height:31px;
+        margin-top:15%;
+        width: 381px;
+        height: 305px;
+        margin-left: 15%;
+    }
+    .Eventplanning-content .ec-im3{
+        line-height:31px;
+        margin-top:10%;
+        margin-left:40%;
+        width: 381px;
+        height: 305px;
+    }
+    .Eventplanning-content .ec-im4{
+        line-height:31px;
+        margin-top:10%;
+        margin-left: 15%;
+        width: 381px;
+        height: 305px;
+    }
+    .Eventplanning-content .ec-p1{
+        line-height:31px;
+        margin-top:15%;
+        margin-left:10%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p2{
+        line-height:24px;
+        margin-left:35%;
+        margin-bottom:20%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p3{
+        line-height:30px;
+        margin-top:20%;
+        margin-top:30%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p4{
+        line-height:30px;
+        margin-top:20%;
+        margin-left: 20%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p5{
+        line-height:30px;
+        margin-left:70%;
+        margin-bottom:20%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p6{
+        line-height:30px;
+        margin-left:40%;
+        margin-bottom:20%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p7{
+        line-height:30px;
+        margin-top:20%;
+        margin-top:30%
+        font-size: 1em;
+    }
+    .AboutUs-News .an-mg1{
+        width:338px;
+        margin-top:10%;
+        margin-bottom:10%;
+        max-width:100%;
+    }
+    .AboutUs-News .an-mg2{
+        width:338px;
+        margin-top:10%;
+        margin-bottom:10%;
+        max-width:100%;
+        margin-left: 15%;
+    }
+    .c-mg1{
+        margin-top:50%;
+        margin-left: 15%;
+    }
+    .c-mg2{
+        margin-top:20%;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 959px){
+    .index-header{
+        height:92px;
+        background-color: #2b2b2b;
+    }
+    .index-header .index-header-nav{
+            font-size: 0.8rem;
+    }
+    .index-header .index-header-logo{
+        float: left;
+        margin-top: 16px;
+        height: 55px;
+        width: 70px;
+        background: url("../images/index-header-logo.png") center center;
+        background-size: cover;
+    }
+    .index-header .index-header-logo-text{
+        float: left;
+        margin-top: 40px;
+        margin-left: 10px;
+        height: 18px;
+        width: 90.4px;
+        background: url("../images/index-header-logo-text.png");
+        background-size: cover;
+    }
+    #myFocus{
+        height: 325px;
+        overflow: hidden;
+    }
+    #myFocus .pic img{
+        width: 960px;
+        height: 325px;
+        background-size: cover;
+    }
+    .index-aboutUs .img3{
+        margin-top:30%;
+        margin-left:40%;
+    }
+    .index-aboutUs .img4{
+        margin-top:20%;
+        margin-left:25%;
+    }
+    .index-madeVideo .img5{
+        margin-top:-1%;
+    }
+    .index-madeVideo .im-p1{
+        font-size: 1rem;
+    }
+    .index-madeVideo .col-md-5{
+        margin-left:5%;
+        margin-top:10%;
+    }
+    .index-madeVideo .frame{
+        margin-left:15%;
+    }
+    .index-ad .ia-p1{
+        font-size: 1.5em;
+        color: #fdf9f9;
+        font-weight: 900;
+        margin-top:15%;
+        margin-left:36%;
+    }
+    .index-ad .ia-p2{
+        font-size: 0.8em;
+        color: #fdfbfb;
+        line-height: 2em;
+        margin-left:36%;
+        margin-right: 10%;
+    }
+    .index-ad .ia-m1{
+        margin-bottom:8%;
+        margin-left:43%;
+    }
+    .index-activityPlanning .col-md-4{
+        margin-top:10%;
+        margin-bottom:10%;
+    }
+    .index-activityPlanning .iag-p1{
+        font-size: 1.5em;
+        line-height: 56px;
+        font-weight: 900;
+    }
+    .index-activityPlanning .iag-p2{
+        font-size: 1em;
+    }
+    .index-activityPlanning .iag-p3{
+        font-size: 1em;
+        line-height: 2em;
+    }
+    .index-activityPlanning .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:6%;
+        margin-left:15%;
+    }
+    .index-activityPlanning #picBox{
+        height: 223px;
+        width: 381px;
+        overflow: hidden;
+        margin-top:30%;
+        margin-left:20%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im1{
+        margin-top:50%;
+        max-width:100%;
+        width: 316px;
+        height: 220px;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im2{
+        display: none;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-p1{
+        font-size: 1.8em;
+        font-weight: 900;
+        color:#000;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-p2{
+        font-size: 1em;
+        color: #9c9c9b;
+        line-height: 2.5em;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-p3{
+        font-size: 1em;
+        color: #575b5c;
+        line-height: 2.2em;
+        margin-top: 10%;
+        width:50%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:-10%;
+        margin-left:60%;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im3{
+        float:left;
+        margin-top:10%;
+        max-width:100%;
+        width: 125px;
+        height: 226px;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im4{
+        float:left;
+        margin-top:10%;
+        max-width:100%;
+        width: 125px;
+        height: 226px;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im5{
+        margin-top:10%;
+        margin-bottom:20%;
+        max-width:100%;
+        width: 125px;
+        height: 226px;
+    }
+    .index-team .it-mg{
+        width: 135px;
+        height: 200px;
+        margin-left:1%;
+    }
+    .index-team .div6{
+        margin-left: 15%;
+    }
+    .index-footer{
+        height: 73px;
+        background-color: #1d1d1d;
+    }
+
+    .index-footer .index-footer-information{
+        color: #e1dfde;
+        font-size:0.5em ;
+        line-height: 73px;
+        text-align:center;
+        height: 0.5em;
+        display: block;
+    }
+    .Fd-Movie .fm-im1{
+        margin-top:25%;
+        width: 284px;
+        height: 172px;
+    }
+    .Fd-Movie .fm-im2{
+        margin-top:15%;
+        margin-bottom:20%;
+        width: 284px;
+        height: 172px;
+    }
+    .Fd-Movie .fm-im3{
+        margin-top:15%;
+        margin-left:30%;
+    }
+    .Fd-Movie .fm-p{
+        font-size: 1em;
+        line-height:2em;
+    }
+    .Fd-Movie .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:10%;
+        margin-left:40%;
+    }
+    .Fd-Postproduction .fp-p1{
+        margin-left:20%;
+    }
+    .Fd-Postproduction .fp-p2{
+        margin-top:10%;
+        margin-left:20%;
+        line-height:30px;
+    }
+    .Fd-Postproduction .frame{
+        width: 151px;
+        height: 54px;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 54px;
+        margin-top:10%;
+        margin-left:40%;
+        margin-bottom: 20%;
+    }
+    .Fd-images .fi-im1{
+            margin-top:10%;
+            margin-bottom:10%;
+            max-width:100%;
+    }
+    .Fd-images .fi-im2{
+        margin-top:30%;
+        max-width:100%;
+    }
+    .Fd-images .fi-im3{
+        margin-top:10%;
+        max-width:100%;
+    }
+    .Fd-images .fi-im4{
+        margin-top:10%;
+        max-width:100%;
+    }
+    .Eventplanning-content .ec-im1{
+        margin-top:15%;
+        margin-left:40%;
+        width: 168px;
+        height: 115px;
+    }
+    .Eventplanning-content .ec-im2{
+        line-height:31px;
+        margin-top:15%;
+        width: 381px;
+        height: 305px;
+        margin-left: 25%;
+    }
+    .Eventplanning-content .ec-im3{
+        line-height:31px;
+        margin-top:10%;
+        margin-left:25%;
+        width: 381px;
+        height: 305px;
+    }
+    .Eventplanning-content .ec-im4{
+        line-height:31px;
+        margin-top:10%;
+        margin-left: 25%;
+        width: 381px;
+        height: 305px;
+    }
+    .Eventplanning-content .ec-p1{
+        line-height:31px;
+        margin-top:15%;
+        margin-left:10%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p2{
+        line-height:24px;
+        margin-left:45%;
+        margin-bottom:10%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p3{
+        line-height:30px;
+        margin-top:5%;
+        font-size: 1em;
+        margin-bottom:10%;
+    }
+    .Eventplanning-content .ec-p4{
+        line-height:30px;
+        margin-top:20%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p5{
+        line-height:30px;
+        margin-left:45%;
+        margin-bottom:10%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p6{
+        line-height:30px;
+        margin-left:45%;
+        margin-bottom:10%;
+        font-size: 1em;
+    }
+    .Eventplanning-content .ec-p7{
+        line-height:30px;
+        margin-top:10%;
+        font-size: 1em;
+        margin-bottom:10%;
+    }
+    .AboutUs-News .an-mg1{
+        width:270px;
+        margin-top:10%;
+        margin-bottom:10%;
+        margin-left: 15%;
+        max-width:100%;
+    }
+    .AboutUs-News .an-mg2{
+        width:270px;
+        margin-top:10%;
+        margin-bottom:10%;
+        max-width:100%;
+        margin-left: 10%;
+        margin-left: 10%;
+    }
+    .c-mg1{
+        margin-top:50%;
+        margin-left: 15%;
+    }
+    .c-mg2{
+        margin-top:20%;
+        margin-left: 15%;
+    }
+}
