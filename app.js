@@ -10,7 +10,7 @@ var path          = require('path')
 var bodyParser    = require('body-parser')
 var port          = process.env.PORT || 5000
 var env           = process.env.NODE_ENV || 'development'
-var dbUrl         = 'mongodb://csxh_runner:chengshixinghui666@127.0.1:27017/csxh'
+var dbUrl         = 'mongodb://csxh_runner:chengshixinghui666@127.0.0.1:27017/csxh'
 if(env === 'development'){
     dbUrl = 'mongodb://localhost/csxh'
 }
