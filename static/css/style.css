@@ -1191,6 +1191,7 @@ body{
 @media screen and (max-width: 499px){
 	.navbar{
 		font-size: 0.7rem;
+		top:-10px;
 	}
 	.index-header .index-header-nav .item{
 	        float: left;
@@ -1201,7 +1202,7 @@ body{
 	}
 	.index-header .index-header-nav a{
 	        color: #dfdede;
-	        line-height: 200%;
+	        line-height: 150%;
 	        text-decoration:none;
 	}
 	.index-header .active{

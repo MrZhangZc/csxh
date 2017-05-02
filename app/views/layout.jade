@@ -6,32 +6,32 @@ html
     title #{title}
     include ./includes/head
   body
-        .navbar.revealOnScroll(style="position:absolute;right:0;")
-            if user
-              p.navbar-text
-              span(style="display:inline;color:#ccc;") 欢迎您,#{user.name}
-              span &nbsp;|&nbsp;
-              a.nvabar-link(href="/logout" style="display:inline;color:#ccc;") 登出
-            else
-              p.navbar-text
-              a.nvabar-link(href="/signup" style="display:inline;color:#ccc;") 注册
-              span &nbsp;|&nbsp;
-              a.nvabar-link(href="/signin" style="display:inline;color:#ccc;") 登录
+    .navbar.revealOnScroll(style="position:absolute;right:0;")
+      if user
+        p.navbar-text
+        span(style="display:inline;color:#ccc;") 欢迎您,#{user.name}
+        span &nbsp;|&nbsp;
+        a.nvabar-link(href="/logout" style="display:inline;color:#ccc;") 登出
+      else
+        p.navbar-text
+        a.nvabar-link(href="/signup" style="display:inline;color:#ccc;") 注册
+        span &nbsp;|&nbsp;
+        a.nvabar-link(href="/signin" style="display:inline;color:#ccc;") 登录
     block content
     .index-footer(style="position:relative;")
       a.index-footer-information.revealOnScroll ©2017  程氏星辉（北京）科技有限公司   版权所有
-    script.
-      $(function(){
-        $(".index-header li").on('click',function() {
+    //- script.
+    //-   $(function(){
+    //-     $(".index-header li").on('click',function() {
 
-          $(this).siblings('li').removeClass('active');
+    //-       $(this).siblings('li').removeClass('active');
 
-          $(this).addClass('active');
+    //-       $(this).addClass('active');
 
-          setTimeout("location.reload()",2000);
+    //-       setTimeout("location.reload()",2000);
 
-        });
-      })
+    //-     });
+    //-   })
       
     //- #signupModal.modal.fade
     //-   .modal-dialog
