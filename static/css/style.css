@@ -136,6 +136,12 @@ body{
     .index-madeVideo .img5{
         margin-top:2%;
     }
+    .index-madeVideo .im-p1{
+        line-height:40px;
+    }
+    .index-madeVideo .im-p3{
+        line-height:40px;
+    }
     .index-madeVideo .frame{
         width: 151px;
         height: 54px;
@@ -240,16 +246,22 @@ body{
         float:left;
         margin-top:10%;
         max-width:100%;
+        width:55px;
+        height: 100px;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im4{
         float:left;
         margin-top:10%;
         max-width:100%;
+        width:55px;
+        height: 100px;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im5{
         margin-top:10%;
         margin-bottom:20%;
         max-width:100%;
+        width:55px;
+        height: 100px;
     }
     .index-team .it-mg{
         margin-left:1%;
@@ -469,6 +481,10 @@ body{
     }
     .index-madeVideo .im-p1{
         font-size: 1.5rem;
+        line-height:40px;
+    }
+    .index-madeVideo .im-p3{
+        line-height:40px;
     }
     .index-madeVideo .col-md-5{
         margin-left:10%;
@@ -1207,8 +1223,20 @@ body{
     }
     .index-madeVideo .img5{
         margin-top:-1%;
+        width: 10px;
+        height: 10px;
     }
     .index-madeVideo .im-p1{
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+    }
+    .index-madeVideo .im-p2{
+        font-size: 1rem;
+    }
+    .index-madeVideo .im-p3{
+        font-size: 0.7rem;
+    }
+    .index-madeVideo .im-p4{
         font-size: 1rem;
     }
     .index-madeVideo .col-md-5{
@@ -1219,40 +1247,48 @@ body{
         margin-left:15%;
     }
     .index-ad .ia-p1{
-        font-size: 1.5em;
+        font-size: 0.7rem;
         color: #fdf9f9;
         font-weight: 900;
-        margin-top:15%;
+        margin-top:10%;
         margin-left:36%;
     }
     .index-ad .ia-p2{
-        font-size: 0.8em;
+        font-size: 0.5rem;
         color: #fdfbfb;
         line-height: 2em;
         margin-left:36%;
         margin-right: 10%;
     }
     .index-ad .ia-m1{
-        margin-bottom:8%;
+        margin-bottom:10%;
         margin-left:43%;
+        width: 30px;
+        height: 20px;
+    }
+    .index-ad .im6{
+        width: 15px;
+        height: 15px;
+        margin-left: 85%;
     }
     .index-activityPlanning .col-md-4{
         margin-top:10%;
         margin-bottom:10%;
     }
     .index-activityPlanning .iag-p1{
-        font-size: 1.5em;
-        line-height: 28px;
+        font-size: 0.7rem;
+        line-height: 20px;
         font-weight: 900;
     }
     .index-activityPlanning .iag-p2{
-        font-size: 1em;
+        font-size: 0.5rem;
     }
     .index-activityPlanning .iag-p3{
-        font-size: 1em;
+        font-size: 0.5rem;
         line-height: 2em;
     }
     .index-activityPlanning .frame{
+    	font-size: 0.7rem;
         width: 75px;
         height: 27px;
         border: 1px solid black;
@@ -1262,11 +1298,12 @@ body{
         margin-left:15%;
     }
     .index-activityPlanning #picBox{
-        height: 111px;
-        width: 190px;
+        height: 150px;
+        width: 230px;
         overflow: hidden;
-        margin-top:30%;
+        margin-top:10%;
         margin-left:20%;
+        margin-bottom: 10%;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im1{
         margin-top:50%;
@@ -1278,28 +1315,29 @@ body{
         display: none;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-p1{
-        font-size: 1.8em;
+        font-size: 0.7rem;
         font-weight: 900;
         color:#000;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-p2{
-        font-size: 1em;
+        font-size: 0.5rem;
         color: #9c9c9b;
         line-height: 2.5em;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-p3{
-        font-size: 1em;
+        font-size: 0.5rem;
         color: #575b5c;
         line-height: 2.2em;
         margin-top: 10%;
         width:50%;
     }
     .index-COMMERCIALPHOTOGRAPHY .frame{
-        width: 75px;
-        height: 27px;
+    	font-size: 0.7rem;
+        width: 60px;
+        height: 18px;
         border: 1px solid black;
         text-align: center;
-        line-height: 27px;
+        line-height: 18px;
         margin-top:-10%;
         margin-left:60%;
     }
