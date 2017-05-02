@@ -1130,8 +1130,10 @@ body{
         margin-left: 15%;
     }
 }
-
 @media screen and (max-width: 499px){
+	.navbar{
+		font-size: 0.7rem;
+	}
 	.index-header .index-header-nav .item{
 	        float: left;
 	        width: 14%;
