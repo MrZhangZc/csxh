@@ -121,6 +121,10 @@ body{
         height: 647px;
         overflow: hidden;
     }
+    #myFocus .pic img{
+        width: 1960px;
+        background-size: cover;
+    }
     .index-aboutUs .img3{
         margin-top:30%;
         margin-left:10%;
@@ -130,8 +134,8 @@ body{
         margin-left:10%;
     }
     .index-madeVideo .col-md-5{
-        margin-left:16%;
-        margin-top:10%;
+        margin-left:5%;
+        margin-top:15%;
     }
     .index-madeVideo .img5{
         margin-top:2%;
@@ -150,6 +154,7 @@ body{
         line-height: 54px;
         margin-top:6%;
         margin-left:15%;
+        margin-bottom: 25%;
     }
     .index-ad{
         margin-top:5%;
@@ -171,6 +176,10 @@ body{
     }
     .index-ad .ia-m1{
         margin-bottom:6%;
+        margin-left:43%;
+    }
+    .index-ad .im6{
+        margin-top:65%;
         margin-left:43%;
     }
     .index-activityPlanning .col-md-4{
@@ -207,14 +216,14 @@ body{
         margin-right: 50%;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im1{
-        margin-top:20%;
         max-width:100%;
+        margin-top: 80%;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im2{
-        position:absolute;
         margin-top:32%;
-        margin-left:35%;
+        margin-left:-70%;
         max-width:100%;
+        margin-bottom: 50%;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-p1{
         font-size: 1.8em;
@@ -246,25 +255,33 @@ body{
         float:left;
         margin-top:10%;
         max-width:100%;
-        width:55px;
-        height: 100px;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im4{
         float:left;
         margin-top:10%;
         max-width:100%;
-        width:55px;
-        height: 100px;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im5{
         margin-top:10%;
         margin-bottom:20%;
         max-width:100%;
-        width:55px;
-        height: 100px;
     }
     .index-team .it-mg{
         margin-left:1%;
+    }
+    .index-team .it-p1{
+    	font-size: 26px;
+    	line-height: 84px;
+    	font-weight: 900;
+    	color: #423832;
+    }
+    .index-team .it-p2{
+    	font-style: 14px;
+    	color: #9c9c9b;
+    }
+    .index-team .it-p3{
+    	line-height: 30px;
+    	color: #423832;
     }
     .index-footer{
         height: 148px;
@@ -487,7 +504,7 @@ body{
         line-height:40px;
     }
     .index-madeVideo .col-md-5{
-        margin-left:10%;
+        margin-left:8%;
         margin-top:10%;
     }
     .index-madeVideo .frame{
@@ -551,18 +568,18 @@ body{
         margin-left:20%;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im1{
-        margin-top:50%;
         max-width:100%;
-        width: 396px;
-        height: 275px;
-    }
-    .index-COMMERCIALPHOTOGRAPHY .ic-im2{
-        position:absolute;
-        margin-top:58%;
-        margin-left:50%;
-        max-width:100%;
+        margin-top: 80%;
         width: 260px;
         height: 273px;
+    }
+    .index-COMMERCIALPHOTOGRAPHY .ic-im2{
+        margin-top:32%;
+        margin-left:-50%;
+        max-width:100%;
+        margin-bottom: 50%;
+        width: 396px;
+        height: 275px;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-p1{
         font-size: 1.8em;
@@ -615,6 +632,20 @@ body{
         width: 169px;
         height: 252px;
         margin-left:1%;
+    }
+    .index-team .it-p1{
+    	font-size: 26px;
+    	line-height: 84px;
+    	font-weight: 900;
+    	color: #423832;
+    }
+    .index-team .it-p2{
+    	font-style: 14px;
+    	color: #9c9c9b;
+    }
+    .index-team .it-p3{
+    	line-height: 30px;
+    	color: #423832;
     }
     .index-team .div6{
         margin-left: 15%;
@@ -974,6 +1005,20 @@ body{
         width: 135px;
         height: 200px;
         margin-left:1%;
+    }
+    .index-team .it-p1{
+    	font-size: 26px;
+    	line-height: 84px;
+    	font-weight: 900;
+    	color: #423832;
+    }
+    .index-team .it-p2{
+    	font-style: 14px;
+    	color: #9c9c9b;
+    }
+    .index-team .it-p3{
+    	line-height: 30px;
+    	color: #423832;
     }
     .index-team .div6{
         margin-left: 15%;
@@ -1366,6 +1411,21 @@ body{
         width: 67px;
         height: 100px;
         margin-left:1%;
+    }
+    .index-team .it-p1{
+    	font-size: 0.7rem;
+    	line-height: 30px;
+    	font-weight: 900;
+    	color: #423832;
+    }
+    .index-team .it-p2{
+    	font-size: 0.7rem;
+    	color: #9c9c9b;
+    }
+    .index-team .it-p3{
+    	font-size: 0.5rem;
+    	line-height: 15px;
+    	color: #423832;
     }
     .index-team .div6{
         margin-left: 15%;

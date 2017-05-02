@@ -11,17 +11,17 @@ block content
       id:'picBox',
       pattern:'mF_YSlider'
      })
-  #myFocus
-    .pic
-      ul
-        li
-          img(src="/images/banner-1.png")
-        li
-          img(src="/images/banner-2.png")
-        li
-          img(src="/images/banner-3.png")
-        li
-          img(src="/images/banner-4.png")
+  //- #myFocus
+  //-   .pic
+  //-     ul
+  //-       li
+  //-         img(src="/images/banner-1.png")
+  //-       li
+  //-         img(src="/images/banner-2.png")
+  //-       li
+  //-         img(src="/images/banner-3.png")
+  //-       li
+  //-         img(src="/images/banner-4.png")
   .index-aboutUs(style="background-color: #fbfbfb")
     .container
       .row
@@ -35,25 +35,25 @@ block content
   .index-madeVideo
     .div1(style="position:absolute;")
       img(src="/images/index-madeVideo.png" style="max-width:100%;")
-    .container(style="position:absolute;")
-    .row
-      .col-md-5.zzc6
-        img.revealOnScroll.img5(src="/images/index-madeVideo-icon.png" style="float:left;")
-        p.revealOnScroll.text-muted.h3.im-p2 影视制作
-        p.revealOnScroll.text-muted.h4.im-p3 #{madeVideoP1}
-        p.revealOnScroll.text-muted.h4.im-p1 用视觉传播塑造企业形象，专业的影视制作团队，<br>8年的实战经验总结和众多的成功案例，一直追求<br>创意思维+高效执行
-        .revealOnScroll.frame.text-muted.h4.im-p4 查看更多 >>
+    .container()
+      .row
+        .col-md-5.zzc6
+          img.revealOnScroll.img5(src="/images/index-madeVideo-icon.png" style="float:left;")
+          p.revealOnScroll.text-muted.h3.im-p2 影视制作
+          p.revealOnScroll.text-muted.h4.im-p3 #{madeVideoP1}
+          p.revealOnScroll.text-muted.h4.im-p1 用视觉传播塑造企业形象，专业的影视制作团队，<br>8年的实战经验总结和众多的成功案例，一直追求<br>创意思维+高效执行
+          .revealOnScroll.frame.text-muted.h4.im-p4 查看更多 >>
   .index-ad
     .div2(style="position:absolute;")
       img(src="/images/index-ad.png" style="max-width:100%;")
     .container
-    .row
-      .col-md-5.col-sm-5.col-xs-5
-        img.revealOnScroll.im6(src="/images/index-ad-button.png" style="max-width:100%")
-      .col-md-7.col-sm-7.col-xs-7
-        p.revealOnScroll.ia-p1 #{indexadP1}
-        p.revealOnScroll.text-muted.h4.ia-p2(style="") #{indexadP2}
-        img.revealOnScroll.ia-m1(src="/images/index-ad-arrow.png")
+      .row
+        .col-md-5.col-sm-5.col-xs-5
+          img.revealOnScroll.im6(src="/images/index-ad-button.png" style="max-width:100%")
+        .col-md-7.col-sm-7.col-xs-7
+          p.revealOnScroll.ia-p1 #{indexadP1}
+          p.revealOnScroll.text-muted.h4.ia-p2(style="") #{indexadP2}
+          img.revealOnScroll.ia-m1(src="/images/index-ad-arrow.png")
   .index-activityPlanning
     .container
       .row
@@ -73,27 +73,28 @@ block content
                 li
                   img(src="/images/pixBox2-3.png")
   .index-COMMERCIALPHOTOGRAPHY(style="background-color:#f5f5f5")
-    .row
-      .col-md-6.col-sm-6.col-xs-5
-        .div3(style="position:absolute;")
-          img.revealOnScroll.ic-im1(src="/images/index-COMMERCIALPHOTOGRAPHY.png")
-        img.revealOnScroll.ic-im2(src="/images/index-COMMERCIALPHOTOGRAPHY-1.png")
-      .col-md-6.col-sm-6.col-xs-7(style="margin-top:5%;")
-        p.revealOnScroll.ic-p1 #{COMMERCIALPHOTOGRAPHYP1}
-        p.revealOnScroll.ic-p2 #{COMMERCIALPHOTOGRAPHYP2}
-        p.revealOnScroll.ic-p3 #{COMMERCIALPHOTOGRAPHYP3}
-        .revealOnScroll.frame.text-muted.h4 查看更多 >>
-        img.revealOnScroll.ic-im3(src="/images/index-COMMERCIALPHOTOGRAPHY-2.png")
-        img.revealOnScroll.ic-im4(src="/images/index-COMMERCIALPHOTOGRAPHY-3.png")
-        img.revealOnScroll.ic-im5(src="/images/index-COMMERCIALPHOTOGRAPHY-4.png")
+    .container
+      .row
+        .col-md-5.col-sm-5.col-xs-5
+          .div3(style="position:absolute;")
+            img.revealOnScroll.ic-im1(src="/images/index-COMMERCIALPHOTOGRAPHY-1.png")
+          img.revealOnScroll.ic-im2(src="/images/index-COMMERCIALPHOTOGRAPHY.png")
+        .col-md-7.col-sm-7.col-xs-7(style="margin-top:5%;")
+          p.revealOnScroll.ic-p1 #{COMMERCIALPHOTOGRAPHYP1}
+          p.revealOnScroll.ic-p2 #{COMMERCIALPHOTOGRAPHYP2}
+          p.revealOnScroll.ic-p3 #{COMMERCIALPHOTOGRAPHYP3}
+          .revealOnScroll.frame.text-muted.h4 查看更多 >>
+          img.revealOnScroll.ic-im3(src="/images/index-COMMERCIALPHOTOGRAPHY-2.png")
+          img.revealOnScroll.ic-im4(src="/images/index-COMMERCIALPHOTOGRAPHY-3.png")
+          img.revealOnScroll.ic-im5(src="/images/index-COMMERCIALPHOTOGRAPHY-4.png")
   .index-team
     .container
       .row
         .col-md-5(style="margin-top:10%;")
-          p.revealOnScroll(style="font-size: 26px;line-height: 84px;font-weight: 900;color: #423832;") #{teamP1}
-          p.revealOnScroll(style="font-style: 14px;color: #9c9c9b;") TEAM
+          p.revealOnScroll.it-p1 #{teamP1}
+          p.revealOnScroll.it-p2 TEAM
         .col-md-7(style="margin-top:10%;")
-          p.revealOnScroll.text-muted.h4(style="line-height: 30px;color: #423832;") #{teamP2}
+          p.revealOnScroll.text-muted.h4.it-p3 #{teamP2}
     .container
       .row(style="margin-top:10%;margin-bottom:20%;")
         .div6
