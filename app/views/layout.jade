@@ -11,7 +11,7 @@ html
         .index-header-logo
         .index-header-logo-text
         ul.index-header-nav
-          li.item.active
+          li.item
             a(href="/") 首页
           li.item
             a(href="brandMarketing") 品牌营销
@@ -37,6 +37,18 @@ html
     block content
     .index-footer(style="position:relative;")
       a.index-footer-information.revealOnScroll ©2017  程氏星辉（北京）科技有限公司   版权所有
+    script.
+      $(function(){
+        $(".index-header li").on('click',function() {
+
+          $(this).siblings('li').removeClass('active');
+
+          $(this).addClass('active');
+
+          setTimeout("location.reload()",2000);
+
+        });
+      })
       
     //- #signupModal.modal.fade
     //-   .modal-dialog
