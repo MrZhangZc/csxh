@@ -15,8 +15,6 @@ if(env === 'development'){
     dbUrl = 'mongodb://localhost/csxh'
 }
 
-var dbUrl = 'mongodb://localhost/csxh'
-
 mongoose.Promise  = global.Promise;
 mongoose.connect(dbUrl)
 
