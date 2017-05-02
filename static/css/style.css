@@ -1088,10 +1088,11 @@ body{
 
 @media screen and (max-width: 499px){
     .index-header{
+        height:46px;
         background-color: #2b2b2b;
     }
     .index-header .index-header-nav{
-            font-size: 5px;
+            font-size: 0.6rem;
     }
     .index-header .index-header-logo{
         float: left;

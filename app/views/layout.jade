@@ -23,17 +23,17 @@ html
             a(href="AboutUs") 关于我们
           li.item
             a(href="Contactus") 联系我们
-        .navbar.revealOnScroll(style="position:absolute;right:0;")
-            if user
-              p.navbar-text
-              span(style="display:inline;color:#ccc;") 欢迎您,#{user.name}
-              span &nbsp;|&nbsp;
-              a.nvabar-link(href="/logout" style="display:inline;color:#ccc;") 登出
-            else
-              p.navbar-text
-              a.nvabar-link(href="/signup" style="display:inline;color:#ccc;") 注册
-              span &nbsp;|&nbsp;
-              a.nvabar-link(href="/signin" style="display:inline;color:#ccc;") 登录
+        //- .navbar.revealOnScroll(style="position:absolute;right:0;")
+        //-     if user
+        //-       p.navbar-text
+        //-       span(style="display:inline;color:#ccc;") 欢迎您,#{user.name}
+        //-       span &nbsp;|&nbsp;
+        //-       a.nvabar-link(href="/logout" style="display:inline;color:#ccc;") 登出
+        //-     else
+        //-       p.navbar-text
+        //-       a.nvabar-link(href="/signup" style="display:inline;color:#ccc;") 注册
+        //-       span &nbsp;|&nbsp;
+        //-       a.nvabar-link(href="/signin" style="display:inline;color:#ccc;") 登录
     block content
     .index-footer(style="position:relative;")
       a.index-footer-information.revealOnScroll ©2017  程氏星辉（北京）科技有限公司   版权所有
