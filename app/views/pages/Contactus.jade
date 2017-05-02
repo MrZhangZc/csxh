@@ -1,6 +1,23 @@
 extends ../layout
 
 block content
+  .index-header
+    .container
+      .index-header-logo
+      .index-header-logo-text
+      ul.index-header-nav
+        li.item
+          a(href="/") 首页
+        li.item
+          a(href="brandMarketing") 品牌营销
+        li.item
+          a(href="Filmproduction") 影视制作
+        li.item
+          a(href="Eventplanning") 活动策划
+        li.item
+          a(href="AboutUs") 关于我们
+        li.item.active
+          a(href="Contactus") 联系我们
   img.revealOnScroll(src="/images/Contactus-banner.png" style="max-width:100%;")
   .container
       .row
