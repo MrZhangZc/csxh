@@ -339,12 +339,12 @@ body{
         margin-left:40%;
     }
     .Fd-images .fi-im1{
-        margin-top:10%;
+        margin-top:20%;
         margin-bottom:10%;
         max-width:100%;
     }
     .Fd-images .fi-im2{
-        margin-top:30%;
+        margin-top:60%;
         max-width:100%;
     }
     .Fd-images .fi-im3{
@@ -710,9 +710,9 @@ body{
         margin-bottom: 20%;
     }
     .Fd-images .fi-im1{
-            margin-top:10%;
-            margin-bottom:10%;
-            max-width:100%;
+        margin-top:10%;
+        margin-bottom:10%;
+        max-width:100%;
     }
     .Fd-images .fi-im2{
         margin-top:30%;
@@ -1083,21 +1083,18 @@ body{
         margin-bottom: 20%;
     }
     .Fd-images .fi-im1{
-            margin-top:10%;
-            margin-bottom:10%;
-            max-width:100%;
+        margin-top:10%;
+        margin-bottom:10%;
+        max-width:100%;
     }
     .Fd-images .fi-im2{
-        margin-top:30%;
-        max-width:100%;
+        display: none;
     }
     .Fd-images .fi-im3{
-        margin-top:10%;
-        max-width:100%;
+        display: none;
     }
     .Fd-images .fi-im4{
-        margin-top:10%;
-        max-width:100%;
+        display: none;
     }
     .Eventplanning-content .ec-im1{
         margin-top:15%;
@@ -1171,7 +1168,7 @@ body{
         width:270px;
         margin-top:10%;
         margin-bottom:10%;
-        margin-left: 15%;
+        margin-left: 5%;
         max-width:100%;
     }
     .AboutUs-News .an-mg2{
@@ -1390,21 +1387,21 @@ body{
         float:left;
         margin-top:10%;
         max-width:100%;
-        width: 62px;
+        width: 58px;
         height: 113px;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im4{
         float:left;
         margin-top:10%;
         max-width:100%;
-        width: 62px;
+        width: 58px;
         height: 113px;
     }
     .index-COMMERCIALPHOTOGRAPHY .ic-im5{
         margin-top:10%;
         margin-bottom:20%;
         max-width:100%;
-        width: 62px;
+        width: 58px;
         height: 113px;
     }
     .index-team .it-mg{
@@ -1456,13 +1453,14 @@ body{
     }
     .Fd-Movie .fm-im3{
         margin-top:15%;
-        margin-left:30%;
+        margin-left:20%;
     }
     .Fd-Movie .fm-p{
-        font-size: 1em;
+        font-size: 0.7rem;
         line-height:2em;
     }
     .Fd-Movie .frame{
+    	font-size: 1rem;
         width: 75px;
         height: 27px;
         border: 1px solid black;
@@ -1472,14 +1470,21 @@ body{
         margin-left:40%;
     }
     .Fd-Postproduction .fp-p1{
-        margin-left:20%;
+    	font-size: 1rem;
+        margin-left:40%;
     }
     .Fd-Postproduction .fp-p2{
+    	font-size: 0.7rem;
         margin-top:10%;
-        margin-left:20%;
+        margin-left:10%;
         line-height:15px;
     }
+    .Fd-Postproduction .fp-im2{
+    	width: 20px;
+    	height: 20px;
+    }
     .Fd-Postproduction .frame{
+    	font-size: 0.7rem;
         width: 75px;
         height: 27px;
         border: 1px solid black;
@@ -1490,21 +1495,18 @@ body{
         margin-bottom: 20%;
     }
     .Fd-images .fi-im1{
-            margin-top:10%;
-            margin-bottom:10%;
-            max-width:100%;
+        margin-top:5%;
+        margin-bottom:10%;
+        max-width:100%;
     }
     .Fd-images .fi-im2{
-        margin-top:30%;
-        max-width:100%;
+        display: none;
     }
     .Fd-images .fi-im3{
-        margin-top:10%;
-        max-width:100%;
+        display: none;
     }
     .Fd-images .fi-im4{
-        margin-top:10%;
-        max-width:100%;
+        display: none;
     }
     .Eventplanning-content .ec-im1{
         margin-top:15%;
@@ -1578,7 +1580,7 @@ body{
         width:135px;
         margin-top:10%;
         margin-bottom:10%;
-        margin-left: 15%;
+        margin-left: 8%;
         max-width:100%;
     }
     .AboutUs-News .an-mg2{
@@ -1588,6 +1590,27 @@ body{
         max-width:100%;
         margin-left: 10%;
         margin-left: 10%;
+    }
+    .AboutUs-News .an-p1{
+    	margin-left: 10%;
+    }
+    .AboutUs-News .an-p2{
+    	margin-left: 10%;
+    }
+    .AboutUs-News .an-p3{
+    	margin-left: 10%;
+    }
+    .AboutUs-News .an-p{
+    	margin-left: 10%;
+    }
+    .AboutUs-Content .ac-cg{
+    	margin-left: 25%;
+    }
+    .AboutUs-Content .ac-cg1{
+    	margin-left: 30%;
+    }
+    .AboutUs-Content .ac-cg2{
+    	margin-left: 5%;
     }
     .c-mg1{
         margin-top:50%;

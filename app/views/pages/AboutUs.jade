@@ -20,9 +20,9 @@ block content
           img.an-mg2.revealOnScroll(src="/images/AboutUs-News-Img-2.jpg")
         .col-xs
           each item in news
-            p: a.text-muted.h1(href="/new1/#{item._id}" style="padding-top:15%;")= item.mouth
-            p: a.text-muted.h3(href="/new1/#{item._id}")= item.year
-            p: a.text-muted.h4(href="/new1/#{item._id}")= item.title
+            p: a.text-muted.h1.an-p1(href="/new1/#{item._id}" style="padding-top:15%;")= item.mouth
+            p: a.text-muted.h3.an-p2(href="/new1/#{item._id}")= item.year
+            p: a.text-muted.h4.an-p3(href="/new1/#{item._id}")= item.title
             p.an-p: a.text-muted.h4(href="/new1/#{item._id}")= item.summary
             br
             hr
@@ -30,17 +30,17 @@ block content
     .container
       .row(style="margin-top:20%;margin-bottom:20%;")
         .col-md-4.col-sm-4.revealOnScroll
-          img(src="images/AboutUs-Content-Diamonds.png" style="max-width:100%")
-          p.text-muted.h3 品牌策划
-          p.text-muted.h5.ac-p1 活动前期的整体策划到现场执行、后期宣传，为您提供<br>&nbsp;&nbsp;&nbsp;&nbsp;一站式的专业服务，我们拥有资深的创意策划人员<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;及统筹人员以及丰富的组织和实践经验
+          img.ac-cg(src="images/AboutUs-Content-Diamonds.png" style="max-width:100%")
+          p.ac-cg1.text-muted.h3 品牌策划
+          p.ac-cg2.text-muted.h5.ac-p1 活动前期的整体策划到现场执行、后期宣传，为<br>&nbsp;&nbsp;&nbsp;&nbsp;您提供一站式的专业服务，资深的创意策划<br>&nbsp;&nbsp;&nbsp;&nbsp;人员及统筹人员以及丰富的组织和实践经验
         .col-md-4.col-sm-4.revealOnScroll
-          img(src="images/AboutUs-Content-Diamonds.png" style="max-width:100%")
-          p.text-muted.h3 影视制作
-          p.text-muted.h5.ac-p1 用视觉传播塑造企业形象，专业的影视制作团队<br>&nbsp;&nbsp;&nbsp;&nbsp;8年的实战经验总结和众多的成功案例，一直<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;追求创意思维+高效执行
+          img.ac-cg(src="images/AboutUs-Content-Diamonds.png" style="max-width:100%")
+          p.ac-cg1.text-muted.h3 影视制作
+          p.ac-cg2.text-muted.h5.ac-p1 用视觉传播塑造企业形象，专业的影视制作团队<br>&nbsp;&nbsp;&nbsp;&nbsp;8年的实战经验总结和众多的成功案例，一直<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;追求创意思维+高效执行
         .col-md-4.col-sm-4.revealOnScroll
-          img(src="images/AboutUs-Content-Diamonds.png" style="max-width:100%")
-          p.text-muted.h3 公关活动
-          p.text-muted.h5.ac-p1 能够快速有效的找到出现问题的根源，对症下药<br>&nbsp;&nbsp;&nbsp;&nbsp;将企业面临的风险化到最小，将不利变为<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有利，发挥最大的公关效果
+          img.ac-cg(src="images/AboutUs-Content-Diamonds.png" style="max-width:100%")
+          p.ac-cg1.text-muted.h3 公关活动
+          p.ac-cg2.text-muted.h5.ac-p1 能够快速有效的找到出现问题的根源，对症下药<br>&nbsp;&nbsp;&nbsp;&nbsp;将企业面临的风险化到最小，将不利变为<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有利，发挥最大的公关效果
   .index-team
       .container
         .row
