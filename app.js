@@ -1,8 +1,8 @@
 var express       = require('express')
 var app           = express()
+//var connect       = require('connect')
 var cookieParser  = require('cookie-parser')
 var cookieSession = require('cookie-session')
-var connect       = require('connect')
 var session       = require('express-session')
 var logger        = require('morgan')
 var path          = require('path')
@@ -28,11 +28,12 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'static')))
 app.use(cookieParser())
-app.use(session({
+app.use(cookieSession({
 	secret: 'csxh',
 	store : new mongoStore({
 		url: dbUrl,
-		collection: 'sessions'
+		resave: true,
+		saveUninitialized:true
 	})
 }))
 
