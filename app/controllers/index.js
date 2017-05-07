@@ -8,7 +8,7 @@ exports.index = function(req,res){
 		console.log(req.session.user)
 
 		res.render('index',{
-			title: 'zzc',
+			title: '程氏星辉（北京）科技有限公司',
 			introduce: '程氏星辉（北京）文化传播有限公司业务涉猎范围广泛，拥有海量资源和优质客户。丰富的制作经验，使公司在运作每一个项目时，都会根据客户自身的特色和诉求，遵照“充分沟通、准确理解、精心策划和制作精良”的创作原则，为客户量身定制符合自身特色及品味的产品。    公司创始人近十年来，先后为中国建设银行总行、中国建设银行北京分行、央视网、山东潍坊港航局、江苏昆山市政府、北京市东城区文联、长城汽车、双汇集团等企事业单位提供服务，参与策划执行2014年亚太经合组织（APEC）工商咨询理事会迎宾晚宴，承办2011——2014中国建设银行总行春节团拜会、节日演出、部门宣传片制作、公关部统一印刷制品设计，拍摄江苏省昆山市锦溪古镇旅游宣传片，参与执行北京市东城区朝阳门原创歌曲演唱会，拍摄长城汽车及双汇集团产品系列广告。此外，与中央电视台、北京、天津、上海、山西、江苏、浙江、香港、澳亚等多家卫视以及新浪、腾讯、搜狐、网易等门户网站建立了良好的媒体合作关系。在近年业务实践中，公司凭借扎实过硬的专业能力、质优价廉的产品开发赢得了广大客户的好评，在同业竞争中居于领先地位。',
 			madeVideoP1: 'FILM AND TELEVISION  PRODUCTION',
 			madeVideoP2: '用视觉传播塑造企业形象，专业的影视制作团队，8年的实战经验总结和众多的成功案例，一直追求创意思维+高效执行',
@@ -30,7 +30,7 @@ exports.index = function(req,res){
 
 exports.brandMarketing = function(req,res){
 	res.render('brandMarketing',{
-		title: 'zzc'
+		title: '程氏星辉（北京）科技有限公司'
 	})
 }
 
@@ -38,7 +38,7 @@ exports.brandMarketing = function(req,res){
 
 exports.Filmproduction = function(req,res){
 	res.render('Filmproduction',{
-		title: 'zzc'
+		title: '程氏星辉（北京）科技有限公司'
 	})
 }
 
@@ -51,7 +51,7 @@ exports.AboutUs = function(req,res){
     	}
 
     	res.render('AboutUs',{
-		title: 'zzc',
+		title: '程氏星辉（北京）科技有限公司',
 		introduce: '程氏星辉（北京）文化传播有限公司业务涉猎范围广泛，拥有海量资源和优质客户。丰富的制作经验，使公司在运作每一个项目时，都会根据客户自身的特色和诉求，遵照“充分沟通、准确理解、精心策划和制作精良”的创作原则，为客户量身定制符合自身特色及品味的产品。    公司创始人近十年来，先后为中国建设银行总行、中国建设银行北京分行、央视网、山东潍坊港航局、江苏昆山市政府、北京市东城区文联、长城汽车、双汇集团等企事业单位提供服务，参与策划执行2014年亚太经合组织（APEC）工商咨询理事会迎宾晚宴，承办2011——2014中国建设银行总行春节团拜会、节日演出、部门宣传片制作、公关部统一印刷制品设计，拍摄江苏省昆山市锦溪古镇旅游宣传片，参与执行北京市东城区朝阳门原创歌曲演唱会，拍摄长城汽车及双汇集团产品系列广告。此外，与中央电视台、北京、天津、上海、山西、江苏、浙江、香港、澳亚等多家卫视以及新浪、腾讯、搜狐、网易等门户网站建立了良好的媒体合作关系。在近年业务实践中，公司凭借扎实过硬的专业能力、质优价廉的产品开发赢得了广大客户的好评，在同业竞争中居于领先地位。',
 		news: news
 	  })
@@ -62,7 +62,7 @@ exports.AboutUs = function(req,res){
 
 exports.Eventplanning = function(req,res){
 	res.render('Eventplanning',{
-		title: 'zzc'
+		title: '程氏星辉（北京）科技有限公司'
 	})
 }
 
@@ -76,7 +76,7 @@ exports.Contactus = function(req,res){
 		.exec(function(err, comments){
 			console.log(comments)
 			res.render('Contactus',{
-				title: 'zzc',
+				title: '程氏星辉（北京）科技有限公司',
 				comments: comments
 			})
 		})
