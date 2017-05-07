@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'static')))
 app.use(cookieParser())
 app.use(session({
 	secret: 'csxh',
-	resave: true,
+	resave: false,
 	saveUninitialized: true,
 	store : new mongoStore({
 		url: dbUrl,
