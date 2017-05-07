@@ -2,11 +2,12 @@ var express       = require('express')
 var app           = express()
 var cookieParser  = require('cookie-parser')
 var cookieSession = require('cookie-session')
+var connect       = require('connect')
 var session       = require('express-session')
 var logger        = require('morgan')
-var path          =require('path')
-var fm            =require('formidable')
-var fs            =require('fs')
+var path          = require('path')
+// var fm            =require('formidable')
+// var fs            =require('fs')
 var mongoose      = require('mongoose')
 var mongoStore    = require('connect-mongo')(session)
 var path          = require('path')
@@ -18,6 +19,7 @@ if(env === 'development'){
     dbUrl = 'mongodb://localhost/csxh'
 }
 
+mongoose.Promise  = global.Promise;
 mongoose.connect(dbUrl)
 
 app.set('views', './app/views/pages')
@@ -26,7 +28,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'static')))
 app.use(cookieParser())
-app.use(cookieSession({
+app.use(session({
 	secret: 'csxh',
 	store : new mongoStore({
 		url: dbUrl,
