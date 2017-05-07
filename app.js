@@ -28,12 +28,13 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'static')))
 app.use(cookieParser())
-app.use(cookieSession({
+app.use(session({
 	secret: 'csxh',
+	resave: true,
+	saveUninitialized: true,
 	store : new mongoStore({
 		url: dbUrl,
-		resave: true,
-		saveUninitialized:true
+		collection: 'sessions'
 	})
 }))
 
