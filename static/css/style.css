@@ -81,7 +81,7 @@ body{
 
 
 @media screen and (min-width: 1200px){
-    .navbar{
+    .zzc{
         top:6%;
     }
     *{
@@ -503,7 +503,7 @@ body{
 }
 
 @media screen and (min-width: 960px) and (max-width: 1199px){
-    .navbar{
+    .zzc{
         top:5%;
     }
     ul{
@@ -957,7 +957,7 @@ body{
 }
 
 @media screen and (min-width: 500px) and (max-width: 959px){
-    .navbar{
+    .zzc{
         font-size: 1rem;
         top:3%;
     }
@@ -1456,9 +1456,9 @@ body{
         -webkit-transform:rotate(7deg);
         -o-transform:rotate(7deg)
     }
-	.navbar{
+	.zzc{
 		font-size: 0.7rem;
-		top:-15px;
+		top:-10px;
 	}
 	.index-header .index-header-nav .item{
 	        float: left;
