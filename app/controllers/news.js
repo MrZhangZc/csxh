@@ -5,7 +5,7 @@ var _          = require('underscore')
 
 exports.news = function(req,res){
     res.render('admin',{
-        title: 'zzc',
+        title: '程氏星辉（北京）文化传播有限公司',
         new1:{
             title: '',
             mouth: '',
@@ -75,7 +75,7 @@ exports.newsList = function(req,res){
         }
 
         res.render('list',{
-        title: 'zzc',
+        title: '程氏星辉（北京）文化传播有限公司',
         news: news
     })
   })        
@@ -88,7 +88,7 @@ exports.detail = function(req,res){
 
     News.findById(id, function(err, new1){
         res.render('detail',{
-        title: 'zzc',
+        title: '程氏星辉（北京）文化传播有限公司',
         new1: new1
     })
   })
