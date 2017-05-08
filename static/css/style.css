@@ -1381,7 +1381,6 @@ body{
 
     .notice{
         width: 80%;
-        height: 700px;
         margin: 0 auto;
         box-sizing: border-box;
         overflow: hidden;
@@ -1389,21 +1388,22 @@ body{
 
     .notice-tit{
         height: 50px;
+        margin: 10px;
     }
 
     .notice-tit ul li{
         float: left;
-        margin-left: 8%;
         margin-top: 20px;
     }
 
     .notice-tit ul li a{
         font-weight: bold;
         display: inline-block;
-        width: 130px;
-        height: 50px;
-        line-height: 50px;
+        width: 67px;
+        height: 26px;
+        line-height: 26px;
         text-align: center;
+        font-size: 0.7rem
     }
 
     .InActive{
@@ -1413,7 +1413,7 @@ body{
 
     .notice-con{
         margin-top: 7%;
-        margin-left: 10%;
+        margin-left: 20%;
     }
 
     .notice-con .mod ul li{
@@ -1427,8 +1427,8 @@ body{
     }
 
     .notice-con .mod ul li img{
-        width: 253px;
-        height: 175px;
+        width: 160px;
+        height: 112px;
     }
 
     .notice-con .mod ul li:hover{
