@@ -73,6 +73,9 @@ body{
 
 
 @media screen and (min-width: 1200px){
+    .navbar{
+        top:6%;
+    }
     *{
         margin: 0;
         padding: 0;
@@ -492,6 +495,9 @@ body{
 }
 
 @media screen and (min-width: 960px) and (max-width: 1199px){
+    .navbar{
+        top:5%;
+    }
     ul{
         list-style: none;
     }
@@ -943,6 +949,10 @@ body{
 }
 
 @media screen and (min-width: 500px) and (max-width: 959px){
+    .navbar{
+        font-size: 1rem;
+        top:3%;
+    }
     ul{
         list-style: none;
     }
