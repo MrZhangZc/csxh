@@ -29,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'static')))
 app.use(cookieParser())
 app.use(session({
 	secret: 'csxh',
+	cookie:{maxAge:60000},
 	resave: false,
 	saveUninitialized: true,
 	store : new mongoStore({
