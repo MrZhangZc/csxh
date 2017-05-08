@@ -4,16 +4,16 @@ var News        = require('../app/controllers/news')
 var Comment     = require('../app/controllers/comment')
 
 
-module.exports = function(app){
-	// pre handle user
-	app.use(function(req, res, next){
-		var _user = req.session.user
+module.exports = function(app) {
 
-		if(_user){
-			app.locals.user = _user
-		}
-		return next()
-	})
+  // pre handle user
+  app.use(function(req, res, next) {
+    var _user = req.session.user
+
+    app.locals.user = _user
+
+    next()
+  })
 
 	// Page
 	app.get('/', Index.index)
@@ -42,7 +42,7 @@ module.exports = function(app){
 
 	app.get('/logout',function(req, res){
 	delete req.session.user
-    delete app.locals.user
+    //delete app.locals.user
 	res.redirect('/')
     })
 
