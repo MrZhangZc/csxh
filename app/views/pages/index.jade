@@ -19,28 +19,32 @@ block content
         li.item
           a(href="Contactus") 联系我们
   script.
-    myFocus.set({
-      id:'myFocus',
-      pattern:'mF_fancy',
-      loadIMGTimeout:"0.5"
-    })
+    $(function(){
+           $('.banner').unslider({
+              speed: 500,
+              delay: 1000,
+              complete: function() {},
+              keys: true,
+              dots: true,
+              fluid: false
+           }); 
+        })
 
     myFocus.set({
       id:'picBox',
       pattern:'mF_YSlider',
       loadIMGTimeout:"0.5"
      })
-  #myFocus
-    .pic
-      ul
-        li
-          img(src="/images/banner-1.png")
-        li
-          img(src="/images/banner-2.png")
-        li
-          img(src="/images/banner-3.png")
-        li
-          img(src="/images/banner-4.png")
+  .banner
+    ul
+      li
+        img(src="/images/banner-1.png" alt="" style="max-width: 100%;")
+      li
+        img(src="/images/banner-2.png" alt="" style="max-width: 100%;")
+      li
+        img(src="/images/banner-3.png" alt="" style="max-width: 100%;")
+      li
+        img(src="/images/banner-4.png" alt="" style="max-width: 100%;")
   .index-aboutUs(style="background-color: #fbfbfb")
     .container
       .row
