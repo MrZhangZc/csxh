@@ -78,10 +78,10 @@ block content
     var map = new AMap.Map('container',{
                 resizeEnable: true,
                 zoom: 100,
-                center: [116.2880800000,39.9609700000]
+                center: [116.289255,39.961023]
             });
     var marker = new AMap.Marker({
-            icon : 'http://vdata.amap.com/icons/b18/1/2.png',
-            offset : new AMap.Pixel(-12,-12),
-            map : mapObj
-    });
+                        icon: "http://webapi.amap.com/theme/v1.3/markers/n/mark_b.png",
+                        position: [116.289255,39.961023]
+                    });
+        marker.setMap(map);
