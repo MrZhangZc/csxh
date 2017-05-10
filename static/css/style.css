@@ -1421,6 +1421,7 @@ body{
     }
 }
 @media screen and (max-width: 499px){
+    .banner .dots { position: absolute; left: 0; right: 0; bottom: -5px;}
     .banner .arrow { position: absolute; top: 60px;}
     ul{
         list-style: none;
