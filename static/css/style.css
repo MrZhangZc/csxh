@@ -232,14 +232,6 @@ body{
     .index-header .index-header-nav{
         font-size: 2rem;
     }
-    #myFocus{
-        height: 647px;
-        overflow: hidden;
-    }
-    #myFocus .pic img{
-        width: 1960px;
-        background-size: cover;
-    }
     .index-aboutUs .img3{
         margin-top:30%;
         margin-left:10%;
@@ -247,6 +239,11 @@ body{
     .index-aboutUs .img4{
         margin-top:20%;
         margin-left:10%;
+    }
+    .index-aboutUs .introduce{
+        line-height:30px;
+        text-indent: 2em;
+        margin-top:10%;
     }
     .index-madeVideo .col-md-5{
         margin-left:5%;
@@ -536,6 +533,15 @@ body{
         max-width:100%;
         margin-left: 10%;
     }
+    .AboutUs-News .an-p1{
+        font-size: 4rem;
+    }
+    .AboutUs-News .an-p2{
+        font-size: 3rem;
+    }
+    .AboutUs-News .an-p3{
+        font-size: 2rem;
+    }
     .c-mg1{
         margin-top:50%;
     }
@@ -670,15 +676,6 @@ body{
         background: url("../images/index-header-logo-text.png");
         background-size: cover;
     }
-    #myFocus{
-        height: 406px;
-        overflow: hidden;
-    }
-    #myFocus .pic img{
-        width: 1200px;
-        height: 403px;
-        background-size: cover;
-    }
     .index-aboutUs .img3{
         margin-top:30%;
         margin-left:10%;
@@ -686,6 +683,14 @@ body{
     .index-aboutUs .img4{
         margin-top:20%;
         margin-left:10%;
+    }
+    .index-aboutUs .introduce{
+        font-size: 1.5rem;
+        line-height:30px;
+        text-indent: 2em;
+        margin-top:10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .index-madeVideo .img5{
         margin-top:2%;
@@ -1002,6 +1007,18 @@ body{
         max-width:100%;
         margin-left: 15%;
     }
+    .AboutUs-News .an-p1{
+        font-size: 3.5rem;
+    }
+    .AboutUs-News .an-p2{
+        font-size: 3rem;
+    }
+    .AboutUs-News .an-p3{
+        font-size: 2rem;
+    }
+    .AboutUs-News .an-p4{
+        font-size: 1.5rem;
+    }
     .c-mg1{
         margin-top:50%;
         margin-left: 15%;
@@ -1139,22 +1156,21 @@ body{
         background: url("../images/index-header-logo-text.png");
         background-size: cover;
     }
-    #myFocus{
-        height: 325px;
-        overflow: hidden;
-    }
-    #myFocus .pic img{
-        width: 960px;
-        height: 325px;
-        background-size: cover;
-    }
     .index-aboutUs .img3{
         margin-top:30%;
-        margin-left:40%;
+        margin-left:30%;
     }
     .index-aboutUs .img4{
         margin-top:20%;
-        margin-left:25%;
+        margin-left:20%;
+    }
+    .index-aboutUs .introduce{
+        font-size: 1.5rem;
+        line-height:30px;
+        text-indent: 2em;
+        margin-top:10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .index-madeVideo .img5{
         margin-top:-1%;
@@ -1453,6 +1469,25 @@ body{
         margin-left: 10%;
         margin-left: 10%;
     }
+    .AboutUs-News .an-p1{
+        font-size: 3.5rem;
+        margin-left: 10%;
+    }
+    .AboutUs-News .an-p2{
+        font-size: 3rem;
+        margin-left: 10%;
+    }
+    .AboutUs-News .an-p3{
+        font-size: 2rem;
+        margin-left: 10%;
+    }
+    .AboutUs-News .an-p4{
+        font-size: 1.5rem;
+        margin-left: 12%;
+    }
+    .AboutUs-News .an-p1{
+
+    }
     .c-mg1{
         margin-top:50%;
         margin-left: 15%;
@@ -1596,18 +1631,9 @@ body{
         background: url("../images/index-header-logo-text.png");
         background-size: cover;
     }
-    #myFocus{
-        height: 162px;
-        overflow: hidden;
-    }
-    #myFocus .pic img{
-        width: 499px;
-        height: 162px;
-        background-size: cover;
-    }
     .index-aboutUs .img3{
         margin-top:10%;
-        margin-left:30%;
+        margin-left:25%;
         width: 184px;
         height: 150px;
     }
@@ -1616,6 +1642,14 @@ body{
         margin-left:5%;
         width: 325px;
         height: 170px;
+    }
+    .index-aboutUs .introduce{
+        font-size: 1rem;
+        line-height:30px;
+        text-indent: 2em;
+        margin-top:10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .index-aboutUs .ib-p1{
     	font-size:5px;
@@ -1785,6 +1819,9 @@ body{
     .index-team .div6{
         margin-left: 15%;
     }
+    .index-team .teamText{
+        font-size: 1rem;
+    }
     .index-footer{
         height: 36px;
         background-color: #1d1d1d;
@@ -1950,6 +1987,7 @@ body{
         margin-left: 10%;
     }
     .AboutUs-News .an-p1{
+        font-size: 2rem;
     	margin-left: 10%;
     }
     .AboutUs-News .an-p2{
