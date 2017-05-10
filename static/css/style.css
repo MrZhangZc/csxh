@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ul, ol { padding: 0;}
 .banner { position: relative; overflow: auto; text-align: center;}
 .banner li { list-style: none; }
 .banner ul li { float: left; }
@@ -25,6 +30,15 @@
 .banner .arrow { position: absolute; top: 200px;}
 .banner #al { left: 15px;}
 .banner #ar { right: 15px;}
+.fl{
+    float: left;
+}
+.db{
+    display: inline-block;
+}
+body{
+　　　　font: normal 100% Helvetica, Arial, sans-serif;
+　　}
 .index-header .mg1{
     margin-top:2%;
 }
@@ -1407,7 +1421,7 @@
     }
 }
 @media screen and (max-width: 499px){
-    .banner .dots { position: absolute; left: 0; right: 0; bottom: -5px;}
+    .banner .dots { position: absolute; left: 0; right: 0; bottom: -1px;}
     .banner .arrow { position: absolute; top: 60px;}
     ul{
         list-style: none;
