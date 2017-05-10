@@ -109,6 +109,20 @@ body{
 
 
 @media screen and (min-width: 1200px){
+    .newListTitle{
+        font-size: 3rem;
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+    .newList{
+        font-size: 2rem;
+        margin-top:10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height:5rem;
+        text-indent: 2em;
+        margin-bottom:100%;
+    }
     .zzc{
         top:6%;
     }
@@ -531,6 +545,20 @@ body{
 }
 
 @media screen and (min-width: 960px) and (max-width: 1199px){
+    .newListTitle{
+        font-size: 3rem;
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+    .newList{
+        font-size: 2rem;
+        margin-top:10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height:5rem;
+        text-indent: 2em;
+        margin-bottom:100%;
+    }
     .zzc{
         top:5%;
     }
@@ -985,6 +1013,20 @@ body{
 }
 
 @media screen and (min-width: 500px) and (max-width: 959px){
+    .newListTitle{
+        font-size: 2rem;
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+    .newList{
+        font-size: 1.5rem;
+        margin-top:10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height:3rem;
+        text-indent: 2em;
+        margin-bottom:100%;
+    }
     .zzc{
         font-size: 1rem;
         top:3%;
@@ -1421,6 +1463,24 @@ body{
     }
 }
 @media screen and (max-width: 499px){
+    .newListTitle{
+        font-size: 2rem;
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+    .newList{
+        font-size: 1rem;
+        margin-top:10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height:3rem;
+        text-indent: 2em;
+        margin-bottom:100%;
+    }
+    .newListTitle{
+        font-size: 1rem;
+        margin-left: 40%;
+    }
     .banner .dots { position: absolute; left: 0; right: 0; bottom: -1px;}
     .banner .arrow { position: absolute; top: 60px;}
     ul{
