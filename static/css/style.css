@@ -109,6 +109,11 @@ body{
 
 
 @media screen and (min-width: 1200px){
+    #container{
+        width: 80%;
+        height: 600px;
+        margin: 10% 0 10% 10%;
+    }
     .newListTitle{
         font-size: 3rem;
         margin-left: 40%;
@@ -550,6 +555,11 @@ body{
 }
 
 @media screen and (min-width: 960px) and (max-width: 1199px){
+    #container{
+        width: 80%;
+        height: 600px;
+        margin: 10% 0 10% 10%;
+    }
     .newListTitle{
         font-size: 3rem;
         margin-left: 40%;
@@ -1028,6 +1038,11 @@ body{
 }
 
 @media screen and (min-width: 500px) and (max-width: 959px){
+    #container{
+        width: 80%;
+        height: 400px;
+        margin: 10% 0 10% 10%;
+    }
     .newListTitle{
         font-size: 2rem;
         margin-left: 40%;
@@ -1495,6 +1510,11 @@ body{
     }
 }
 @media screen and (max-width: 499px){
+    #container{
+        width: 80%;
+        height: 200px;
+        margin: 10% 0 10% 10%;
+    }
     .newListTitle{
         font-size: 2rem;
         margin-left: 40%;
