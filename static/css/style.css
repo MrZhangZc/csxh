@@ -544,8 +544,7 @@ body{
     }
     .c-mg1{
         margin-top:50%;
-    }
-    .c-mg2{
+    }{
         margin-top:20%;
     }
 }
@@ -1022,8 +1021,7 @@ body{
     .c-mg1{
         margin-top:50%;
         margin-left: 15%;
-    }
-    .c-mg2{
+    }{
         margin-top:20%;
         margin-left: 15%;
     }
@@ -1491,8 +1489,7 @@ body{
     .c-mg1{
         margin-top:50%;
         margin-left: 15%;
-    }
-    .c-mg2{
+    }{
         margin-top:20%;
         margin-left: 15%;
     }
@@ -2011,9 +2008,7 @@ body{
     .c-mg1{
         margin-top:50%;
         margin-left: 15%;
-    }
-    .c-mg2{
+    }{
         margin-top:20%;
-        margin-left: 15%;
     }
 }
