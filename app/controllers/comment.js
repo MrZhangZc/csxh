@@ -3,7 +3,7 @@ var User       = require('../models/user')
 // comment
 exports.saveComment = function(req,res){
       var _comment = req.body.comment
-      var user = req.session.user
+      var user = req.session.user;
 
       if(user.role > 10){
         if (_comment.cid) {
