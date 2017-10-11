@@ -37,12 +37,12 @@ block content
           img.an-mg2.revealOnScroll(src="/images/AboutUs-News-Img-2.jpg")
         .col-xs
           each item in news
-            p: a.text-muted.an-p1(href="/new1/#{item._id}" style="padding-top:15%;"  target="_blank")= item.mouth
-            p: a.text-muted.an-p2(href="/new1/#{item._id}"  target="_blank")= item.year
-            p: a.text-muted.an-p3(href="/new1/#{item._id}"  target="_blank")= item.title
-            p.an-p: a.text-muted.an-p4(href="/new1/#{item._id}"  target="_blank")= item.summary
-            br
-            hr
+          p: a.text-muted.an-p1(href="/new1/#{item._id}" style="padding-top:15%;"  target="_blank")= item.mouth
+          p: a.text-muted.an-p2(href="/new1/#{item._id}"  target="_blank")= item.year
+          p: a.text-muted.an-p3(href="/new1/#{item._id}"  target="_blank")= item.title
+          p.an-p: a.text-muted.an-p4(href="/new1/#{item._id}"  target="_blank")= item.summary
+          br
+          hr
   .AboutUs-Content(style="background-color: #f5f5f5;")
     .container
       .row(style="margin-top:20%;margin-bottom:20%;")
