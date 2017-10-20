@@ -35,9 +35,6 @@ block content
           ul.media-list
             each item in comments
               li.media
-                //- .pull-left
-                //-   a.comment(href="#comments", data-cid="#{item._id}", data-tid="#{item.from._id}")
-                //-     img.media-object(src="/uploads/icon.png", style="width: 64px; height: 64px;")
                 .media-body
                   h3 来自:
                     p(style="display:inline-block").text-muted.h4.media-heading #{item.from.name}
