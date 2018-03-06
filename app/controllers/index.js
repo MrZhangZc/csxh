@@ -1,7 +1,6 @@
 var News       = require('../models/news')
 var Comment    = require('../models/comment')
 
-
 //index page
 exports.index = function(req,res){
 		console.log('user in session: ')
